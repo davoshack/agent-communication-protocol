@@ -4,4 +4,15 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "acp-sdk>=0.13.0",
+    "ai-custom-utils",
+    "colorama>=0.4.6",
+    "crewai>=0.134.0",
+    "crewai-tools>=0.48.0",
+    "nest-asyncio>=1.6.0",
+    "smolagents>=1.19.0",
+]
+
+[tool.uv.sources]
+ai-custom-utils = { git = "https://github.com/davoshack/ai-custom-utils.git" }
